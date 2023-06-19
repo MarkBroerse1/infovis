@@ -12,3 +12,5 @@ merged_data = pd.merge(hdi, happy, on=['Country', 'Year'])
 
 # Save the merged data to full_data.csv
 merged_data.to_csv('full_data.csv', index=False)
+
+print("Dataframes created and merged successfully!")
