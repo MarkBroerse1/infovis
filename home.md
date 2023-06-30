@@ -29,10 +29,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
+   "execution_count": 16,
    "id": "7e955a81",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2929979425.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_31088/2929979425.py\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    ```{toggle}\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
    "source": [
     "\n",
     "import pandas as pd\n",
@@ -68,15 +77,58 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 19,
+   "execution_count": 2,
    "id": "c8aafdef",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "    Country  Year  Life_expectancy_at_birth  Expected_years_of_schooling  \\\n",
+      "0  Zimbabwe  2018                    61.200                        10.45   \n",
+      "1  Zimbabwe  2017                    60.812                        10.30   \n",
+      "2  Zimbabwe  2016                    60.294                        10.30   \n",
+      "3  Zimbabwe  2015                    59.534                        10.30   \n",
+      "4    Zambia  2018                    63.510                        12.06   \n",
+      "\n",
+      "   Average_of_years_of_schooling  GNI_per_capita_PPP  life_expectancy_index  \\\n",
+      "0                           8.34             2661.07                   0.63   \n",
+      "1                           8.20             2860.00                   0.63   \n",
+      "2                           8.20             2570.00                   0.62   \n",
+      "3                           8.20             2410.00                   0.61   \n",
+      "4                           7.10             3581.89                   0.67   \n",
+      "\n",
+      "   Education_Index  GNI_Index  HDI_1  ...  gdp_per_capita    family    health  \\\n",
+      "0             0.58       0.50   0.56  ...        0.357000  0.000000  0.248000   \n",
+      "1             0.57       0.51   0.55  ...        0.366000  0.000000  0.433000   \n",
+      "2             0.57       0.49   0.55  ...        0.271000  1.032760  0.334750   \n",
+      "3             0.57       0.48   0.54  ...        0.375847  1.083096  0.196764   \n",
+      "4             0.60       0.54   0.59  ...        0.562000  0.000000  0.295000   \n",
+      "\n",
+      "    freedom  generosity  government_trust  dystopia_residual  continent  \\\n",
+      "0  0.406000    0.132000          0.099000            0.00000     Africa   \n",
+      "1  0.361000    0.151000          0.089000            0.00000     Africa   \n",
+      "2  0.258610    0.189870          0.080790            2.44191     Africa   \n",
+      "3  0.336384    0.189143          0.095375            1.59797     Africa   \n",
+      "4  0.503000    0.221000          0.082000            0.00000     Africa   \n",
+      "\n",
+      "   social_support  cpi_score  \n",
+      "0           1.094         22  \n",
+      "1           1.114         22  \n",
+      "2           0.000         22  \n",
+      "3           0.000         21  \n",
+      "4           1.047         35  \n",
+      "\n",
+      "[5 rows x 23 columns]\n"
+     ]
+    }
+   ],
    "source": [
     "df = pd.read_csv('full_data.csv')\n",
     "data = df\n",
     "\n",
-    "# print(df.head(n=5)) # Print the first 5 rows of the dataframe\n",
+    "print(df.head(n=5)) # Print the first 5 rows of the dataframe\n",
     "\n",
     "\n",
     "df_1 = pd.read_csv('full_data.csv')\n",
@@ -153,7 +205,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 20,
+   "execution_count": 13,
    "id": "8131150e",
    "metadata": {},
    "outputs": [
@@ -11632,7 +11684,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 21,
+   "execution_count": 12,
    "id": "860e429d",
    "metadata": {},
    "outputs": [
@@ -16431,7 +16483,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 22,
+   "execution_count": 14,
    "id": "445618a3",
    "metadata": {},
    "outputs": [
@@ -16531,7 +16583,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 23,
+   "execution_count": 8,
    "id": "c9c6bce7",
    "metadata": {},
    "outputs": [
@@ -28225,7 +28277,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 24,
+   "execution_count": null,
    "id": "abb7c102",
    "metadata": {
     "scrolled": false
@@ -30498,7 +30550,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 25,
+   "execution_count": null,
    "id": "15401212",
    "metadata": {
     "scrolled": false
@@ -36970,7 +37022,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 26,
+   "execution_count": 11,
    "id": "7369f5cc",
    "metadata": {},
    "outputs": [
